@@ -1,0 +1,50 @@
+<title>Dropdown Menu</title>
+
+<html>
+<head>
+<style>
+.mainmenubtn {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: green;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 100px;
+}
+.dropdown-child a {
+    color: green;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Buku Harian Tio</button>
+  <div class="dropdown-child">
+    <a href="http://wwww.yourdomain.com/page1.html">Long distance Relationship</a>
+    <a href="http://wwww.yourdomain.com/page2.html">Di Atas Senja</a>
+    <a href="http://wwww.yourdomain.com/page3.html">The Heirs</a>
+    <a href="http://wwww.yourdomain.com/page4.html">London Love Story</a>
+    <a href="http://wwww.yourdomain.com/page5.html">Gezz An</a>
+  </div>
+</div>
+</body>
+</html>
